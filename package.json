@@ -1,0 +1,38 @@
+{
+  "name": "@motifsoftware/ts-object-keys",
+  "version": "1.0.0",
+  "description": "TypeScript type declarations for Object.keys that produces better type inference.",
+  "main": "index.d.ts",
+  "types": "index.d.ts",
+  "typings": "index.d.ts",
+  "files": [
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MotifSoftware/ts-object-keys.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Object.keys",
+    "keys"
+  ],
+  "author": "dave@motifsoftware.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MotifSoftware/ts-object-keys/issues"
+  },
+  "homepage": "https://github.com/MotifSoftware/ts-object-keys#readme",
+  "peerDependencies": {
+    "typescript": "^4.6"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.30"
+  }
+}
